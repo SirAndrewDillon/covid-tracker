@@ -1,10 +1,19 @@
 import React, { Component } from 'react'
+import Cards from './components/Cards/Cards'
+import Chart from './components/Chart/Chart'
+import CountryPicker from './components/CountryPicker/CountryPicker'
+import styles from './App.module.css'
+
+
+
 
 export default class App extends Component {
     render() {
         return (
-            <div>
-                <h1>APP</h1>
+            <div className={styles.container}>
+               <Cards />
+               <Chart />
+               <CountryPicker />
             </div>
         )
     }
