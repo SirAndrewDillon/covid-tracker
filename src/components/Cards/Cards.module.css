@@ -10,7 +10,7 @@
 }
 
 .recovered{
-  border-bottom: 10px solid rgb(255,221,51);
+  border-bottom: 10px solid rgb(255,221,51, 0.5);
 }
 
 .deaths{
